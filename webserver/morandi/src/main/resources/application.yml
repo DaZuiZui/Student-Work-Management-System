@@ -1,0 +1,11 @@
+server:
+  port: 8989
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/morandi?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    username: username
+    password: password
+web:
+  upload-path: A:\huo\morandi\springboot\img
+  upload-path1: A:\huo\morandi\springboot\img\zpq
